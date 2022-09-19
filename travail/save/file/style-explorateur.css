@@ -1,0 +1,64 @@
+.color1
+{
+background-color:#E6E6FA;
+}
+.color2
+{
+background-color:#F5F5F5
+}
+
+.opensrc
+{
+
+-moz-opacity:0.03;
+opacity: 0.03;
+filter:alpha(opacity=03);
+
+left:35%;
+top:20%;
+position:absolute;
+}
+
+div.bulle
+{
+  font-family: verdana, arial, sans-serif;
+  position: absolute;
+  padding: 0.5em;
+  background: #FFF7D2;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  line-height: 1.1;
+  font-size: 0.9em;
+position:absolute; top:45%; left:40%
+}
+
+img
+{
+border-style:none;
+background : transparent; 
+}
+
+a
+{
+color:black;
+text-decoration:none;
+}
+
+
+body{
+
+
+background-color:#F5F5F5;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 80%;
+line-height: 1.5em;
+color:black;
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:0px;
+
+
+}
+
+

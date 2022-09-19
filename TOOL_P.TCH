@@ -1,0 +1,33 @@
+0  BEGIN PGM CHARNIERE MM 
+1  ; Job Number       : MOULE KEBAB
+2  ; Program Date     : 27.06.16 - 11:55:35
+3  ; Programmed by    : JBDB12-702
+4  ; PowerMILL Cb     : 1187245
+5  ; DP Version       : 1525
+6  ; Option File      : Attention DMU40T-H530Sv5M0_27_06
+7  ; Output Workplane : Universel
+8  ;
+9  ; TOOL LIST :  6 tools
+10 ; No. ID                      Diameter  Tip Rad  Length
+11 ; 23  FH8                     8.000     4.000    104.305
+12 ; 60  FO5,8                   5.800     0.000    155.000
+13 ; 65  F10-LC45                10.000    0.000    126.702
+14 ; 66  F10-LC22                10.000    0.000    102.702
+15 ; 77  F10R2.5_FRET            10.000    2.500    123.095
+16 ; 127 FS100-KENNA             100.000   0.200    128.490
+17 ;
+18 ; ESTIMATED CUTTING TIME :  14 TOOLPATHS = 00:54:56 )
+19 ;
+20 LBL 170
+21 CYCL DEF 7.0 POINT ZERO
+22 CYCL DEF 7.1  X+0
+23 CYCL DEF 7.2  Y+0
+24 CYCL DEF 7.3  Z+0
+25 PLANE RESET STAY
+26 LBL 0
+27 BLK FORM 0.1 Z  X-1.646  Y-1.041  Z-49.5
+28 BLK FORM 0.2  X+143.354  Y+48.959  Z+0.5
+29 L M129
+30 CYCL DEF 247 INIT. PT DE REF. ~    Q339=+15   ;NUMERO POINT DE REF.
+31 ; TOOL NUMBER : 66
+32 ; TOOL TYPE   : ENDMILL

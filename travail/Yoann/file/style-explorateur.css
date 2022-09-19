@@ -1,0 +1,151 @@
+
+.opensrc
+{
+
+-moz-opacity:0.03;
+opacity: 0.3;
+filter:alpha(opacity=03);
+
+
+position:absolute;
+}
+
+div.bulle
+{
+  font-family: verdana, arial, sans-serif;
+  position: absolute;
+  padding: 0.5em;
+  background: #FFF7D2;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  line-height: 1.1;
+  font-size: 0.9em;
+position:absolute; top:45%; left:40%
+}
+
+img
+{
+border-style:none;
+background : transparent; 
+}
+
+a
+{
+color:black;
+text-decoration:none;
+}
+a span{
+     position:absolute;  
+	 margin-top:23px;
+     margin-left:-35px;	
+     color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:5px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);	
+
+	 transform:scale(0) rotate(-12deg);	
+
+	 transition:all .25s;	
+	 opacity:0; 
+}
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);  
+	 opacity:1;
+}
+
+
+
+
+.onoff
+{
+  width:32px;
+  height:32px;
+  padding:1px 2px 3px 3px;	
+  font-size:12px;
+  background:lightgray;
+  text-align:center;	
+}
+.onoff div
+{
+  width:18px;
+  height:18px;
+  min-height:18px;	
+  background:lightgray;
+  overflow:hidden;
+  border-top:1px solid gray;
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+  border-left:1px solid gray;			
+  margin:0 auto;
+  color:gray;
+}
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia; color:#919191; background-color:#232323;}
+
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia;}
+
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+footer, header, nav{display:block; padding:0;}
+
+
+/* ----------------------------------------------Wrapper-------------------------------------*/ 
+
+
+.row1{color:#C0BAB6; background-color:#333333;}
+.row2{color:#000000; background-color: #cbcbcb   ; width:960px; margin: auto; margin-top: 20px;}
+.row1 a{color:#C0BAB6;}
+
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #footer{display:block; width:960px; margin:auto;}
+nav ul{margin:0; padding:0; list-style:none; }
+h1{margin:0}
+
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px;}
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header {font-weight:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+
+#header nav{display:block; padding:20px 0; color:#C0BAB6; background-color:#232323; clear:both; height: 20px;}
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+
+#container {margin:20px; font-size: 14px; height:auto;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
+
+
+
+p{
+margin: 0;
+padding:3px;
+width:auto;
+}
+p.haut{
+text-align: center;
+color: #FFFFFF;
+}
+p.bas{
+border: 1px solid #9BA834;
+border-top: none;
+}
+
