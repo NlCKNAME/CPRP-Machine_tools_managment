@@ -21,7 +21,7 @@ The request was to implement a management functionality for DMU 40, DANOBAT TNC1
 
 ### My task
 
-My task was to integrate the DMU 40 (sending/downloading programs), improve the visual appearance, add documentation support and improve security.
+My task was to integrate the DMU 40 (get programs list, sending/downloading programs), improve the visual appearance, add documentation support and improve security.
 
 ----
 
